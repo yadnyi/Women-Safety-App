@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "581394037102",
+    "project_id": "aaryaa-e2173",
+    "storage_bucket": "aaryaa-e2173.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:581394037102:android:8aed2f0ee2f4f9ed94697f",
+        "android_client_info": {
+          "package_name": "com.example.aaryaa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "581394037102-svis8nhs0hq78f3dld8mt8co3u2dk2o1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAChF0bk9FslWSUwgfFBSjk4t23ysY5y4Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "581394037102-svis8nhs0hq78f3dld8mt8co3u2dk2o1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

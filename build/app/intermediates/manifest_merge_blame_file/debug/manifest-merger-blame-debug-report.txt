@@ -1,0 +1,429 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.aaryaa"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="30" />
+10    <!--
+11         Flutter needs it to communicate with the running application
+12         to allow setting breakpoints, to provide hot reload, etc.
+13    -->
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->/home/yadnyi/Desktop/Women-Safety-App/android/app/src/debug/AndroidManifest.xml:6:5-66
+14-->/home/yadnyi/Desktop/Women-Safety-App/android/app/src/debug/AndroidManifest.xml:6:22-64
+15    <uses-permission android:name="android.permission.READ_CONTACTS" />
+15-->/home/yadnyi/Desktop/Women-Safety-App/android/app/src/main/AndroidManifest.xml:3:5-72
+15-->/home/yadnyi/Desktop/Women-Safety-App/android/app/src/main/AndroidManifest.xml:3:22-69
+16    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
+16-->/home/yadnyi/Desktop/Women-Safety-App/android/app/src/main/AndroidManifest.xml:4:5-73
+16-->/home/yadnyi/Desktop/Women-Safety-App/android/app/src/main/AndroidManifest.xml:4:22-70
+17    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+17-->/home/yadnyi/Desktop/Women-Safety-App/android/app/src/main/AndroidManifest.xml:5:5-81
+17-->/home/yadnyi/Desktop/Women-Safety-App/android/app/src/main/AndroidManifest.xml:5:22-78
+18    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+18-->/home/yadnyi/Desktop/Women-Safety-App/android/app/src/main/AndroidManifest.xml:6:5-79
+18-->/home/yadnyi/Desktop/Women-Safety-App/android/app/src/main/AndroidManifest.xml:6:22-76
+19    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+19-->/home/yadnyi/Desktop/Women-Safety-App/android/app/src/main/AndroidManifest.xml:7:5-85
+19-->/home/yadnyi/Desktop/Women-Safety-App/android/app/src/main/AndroidManifest.xml:7:22-82
+20
+21    <queries>
+21-->[:flutter_inappwebview] /home/yadnyi/Desktop/Women-Safety-App/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:7:5-11:15
+22        <intent>
+22-->[:flutter_inappwebview] /home/yadnyi/Desktop/Women-Safety-App/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:8:9-10:18
+23            <action android:name="android.support.customtabs.action.CustomTabsService" />
+23-->[:flutter_inappwebview] /home/yadnyi/Desktop/Women-Safety-App/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:9:13-90
+23-->[:flutter_inappwebview] /home/yadnyi/Desktop/Women-Safety-App/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:9:21-87
+24        </intent>
+25        <intent>
+25-->[:contacts_service] /home/yadnyi/Desktop/Women-Safety-App/build/contacts_service/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-12:18
+26            <action android:name="android.accounts.AccountAuthenticator" />
+26-->[:contacts_service] /home/yadnyi/Desktop/Women-Safety-App/build/contacts_service/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-76
+26-->[:contacts_service] /home/yadnyi/Desktop/Women-Safety-App/build/contacts_service/intermediates/merged_manifest/debug/AndroidManifest.xml:11:21-73
+27        </intent> <!-- Allows the app to load an icon corresponding to the custom MIME type. -->
+28        <intent>
+28-->[:contacts_service] /home/yadnyi/Desktop/Women-Safety-App/build/contacts_service/intermediates/merged_manifest/debug/AndroidManifest.xml:14:9-21:18
+29            <action android:name="android.intent.action.VIEW" />
+29-->[:contacts_service] /home/yadnyi/Desktop/Women-Safety-App/build/contacts_service/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-65
+29-->[:contacts_service] /home/yadnyi/Desktop/Women-Safety-App/build/contacts_service/intermediates/merged_manifest/debug/AndroidManifest.xml:15:21-62
+30
+31            <data
+31-->[:contacts_service] /home/yadnyi/Desktop/Women-Safety-App/build/contacts_service/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-20:44
+32                android:host="com.android.contacts"
+32-->[:contacts_service] /home/yadnyi/Desktop/Women-Safety-App/build/contacts_service/intermediates/merged_manifest/debug/AndroidManifest.xml:18:17-52
+33                android:mimeType="vnd.android.cursor.item/*"
+33-->[:contacts_service] /home/yadnyi/Desktop/Women-Safety-App/build/contacts_service/intermediates/merged_manifest/debug/AndroidManifest.xml:19:17-61
+34                android:scheme="content" />
+34-->[:contacts_service] /home/yadnyi/Desktop/Women-Safety-App/build/contacts_service/intermediates/merged_manifest/debug/AndroidManifest.xml:20:17-41
+35        </intent>
+36    </queries>
+37
+38    <uses-permission android:name="android.permission.CAMERA" />
+38-->[:camera] /home/yadnyi/Desktop/Women-Safety-App/build/camera/intermediates/merged_manifest/debug/AndroidManifest.xml:7:5-65
+38-->[:camera] /home/yadnyi/Desktop/Women-Safety-App/build/camera/intermediates/merged_manifest/debug/AndroidManifest.xml:7:22-62
+39    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+39-->[:camera] /home/yadnyi/Desktop/Women-Safety-App/build/camera/intermediates/merged_manifest/debug/AndroidManifest.xml:8:5-71
+39-->[:camera] /home/yadnyi/Desktop/Women-Safety-App/build/camera/intermediates/merged_manifest/debug/AndroidManifest.xml:8:22-68
+40    <uses-permission android:name="android.permission.CALL_PHONE" />
+40-->[:flutter_phone_direct_caller] /home/yadnyi/Desktop/Women-Safety-App/build/flutter_phone_direct_caller/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-69
+40-->[:flutter_phone_direct_caller] /home/yadnyi/Desktop/Women-Safety-App/build/flutter_phone_direct_caller/intermediates/merged_manifest/debug/AndroidManifest.xml:9:22-66
+41
+42    <uses-feature
+42-->[:flutter_phone_direct_caller] /home/yadnyi/Desktop/Women-Safety-App/build/flutter_phone_direct_caller/intermediates/merged_manifest/debug/AndroidManifest.xml:11:5-13:36
+43        android:name="android.hardware.telephony"
+43-->[:flutter_phone_direct_caller] /home/yadnyi/Desktop/Women-Safety-App/build/flutter_phone_direct_caller/intermediates/merged_manifest/debug/AndroidManifest.xml:12:9-50
+44        android:required="false" />
+44-->[:flutter_phone_direct_caller] /home/yadnyi/Desktop/Women-Safety-App/build/flutter_phone_direct_caller/intermediates/merged_manifest/debug/AndroidManifest.xml:13:9-33
+45
+46    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+46-->[com.google.firebase:firebase-auth:21.0.1] /home/yadnyi/.gradle/caches/transforms-2/files-2.1/7cbe3be1f73401522a0e54df01337ead/jetified-firebase-auth-21.0.1/AndroidManifest.xml:24:5-79
+46-->[com.google.firebase:firebase-auth:21.0.1] /home/yadnyi/.gradle/caches/transforms-2/files-2.1/7cbe3be1f73401522a0e54df01337ead/jetified-firebase-auth-21.0.1/AndroidManifest.xml:24:22-76
+47
+48    <uses-feature
+48-->[com.google.android.gms:play-services-maps:17.0.0] /home/yadnyi/.gradle/caches/transforms-2/files-2.1/2bceeb3ebd3046d12f94339ac42b40f4/jetified-play-services-maps-17.0.0/AndroidManifest.xml:26:5-28:35
+49        android:glEsVersion="0x00020000"
+49-->[com.google.android.gms:play-services-maps:17.0.0] /home/yadnyi/.gradle/caches/transforms-2/files-2.1/2bceeb3ebd3046d12f94339ac42b40f4/jetified-play-services-maps-17.0.0/AndroidManifest.xml:27:9-41
+50        android:required="true" />
+50-->[com.google.android.gms:play-services-maps:17.0.0] /home/yadnyi/.gradle/caches/transforms-2/files-2.1/2bceeb3ebd3046d12f94339ac42b40f4/jetified-play-services-maps-17.0.0/AndroidManifest.xml:28:9-32
+51
+52    <application
+52-->/home/yadnyi/Desktop/Women-Safety-App/android/app/src/main/AndroidManifest.xml:8:5-49:19
+53        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+53-->[androidx.core:core:1.3.2] /home/yadnyi/.gradle/caches/transforms-2/files-2.1/72a3039c06c223278c00dd5a60e734ab/core-1.3.2/AndroidManifest.xml:24:18-86
+54        android:debuggable="true"
+55        android:icon="@mipmap/ic_launcher"
+55-->/home/yadnyi/Desktop/Women-Safety-App/android/app/src/main/AndroidManifest.xml:10:9-43
+56        android:label="aaryaa" >
+56-->/home/yadnyi/Desktop/Women-Safety-App/android/app/src/main/AndroidManifest.xml:9:9-31
+57        <meta-data
+57-->/home/yadnyi/Desktop/Women-Safety-App/android/app/src/main/AndroidManifest.xml:11:9-12:70
+58            android:name="com.google.android.geo.API_KEY"
+58-->/home/yadnyi/Desktop/Women-Safety-App/android/app/src/main/AndroidManifest.xml:11:20-65
+59            android:value="AIzaSyBNko2clpELs4s9Xe7Xdz7-oc3bMN0Ovgc" />
+59-->/home/yadnyi/Desktop/Women-Safety-App/android/app/src/main/AndroidManifest.xml:12:13-68
+60
+61        <activity
+61-->/home/yadnyi/Desktop/Women-Safety-App/android/app/src/main/AndroidManifest.xml:13:9-43:20
+62            android:name="com.example.aaryaa.MainActivity"
+62-->/home/yadnyi/Desktop/Women-Safety-App/android/app/src/main/AndroidManifest.xml:14:13-41
+63            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+63-->/home/yadnyi/Desktop/Women-Safety-App/android/app/src/main/AndroidManifest.xml:17:13-163
+64            android:hardwareAccelerated="true"
+64-->/home/yadnyi/Desktop/Women-Safety-App/android/app/src/main/AndroidManifest.xml:18:13-47
+65            android:launchMode="singleTop"
+65-->/home/yadnyi/Desktop/Women-Safety-App/android/app/src/main/AndroidManifest.xml:15:13-43
+66            android:theme="@style/LaunchTheme"
+66-->/home/yadnyi/Desktop/Women-Safety-App/android/app/src/main/AndroidManifest.xml:16:13-47
+67            android:windowSoftInputMode="adjustResize" >
+67-->/home/yadnyi/Desktop/Women-Safety-App/android/app/src/main/AndroidManifest.xml:19:13-55
+68
+69            <!--
+70                 Specifies an Android theme to apply to this Activity as soon as
+71                 the Android process has started. This theme is visible to the user
+72                 while the Flutter UI initializes. After that, this theme continues
+73                 to determine the Window background behind the Flutter UI.
+74            -->
+75            <meta-data
+75-->/home/yadnyi/Desktop/Women-Safety-App/android/app/src/main/AndroidManifest.xml:24:13-27:17
+76                android:name="io.flutter.embedding.android.NormalTheme"
+76-->/home/yadnyi/Desktop/Women-Safety-App/android/app/src/main/AndroidManifest.xml:25:15-70
+77                android:resource="@style/NormalTheme" />
+77-->/home/yadnyi/Desktop/Women-Safety-App/android/app/src/main/AndroidManifest.xml:26:15-52
+78            <!--
+79                 Displays an Android View that continues showing the launch screen
+80                 Drawable until Flutter paints its first frame, then this splash
+81                 screen fades out. A splash screen is useful to avoid any visual
+82                 gap between the end of Android's launch screen and the painting of
+83                 Flutter's first frame.
+84            -->
+85            <meta-data
+85-->/home/yadnyi/Desktop/Women-Safety-App/android/app/src/main/AndroidManifest.xml:33:13-38:17
+86                android:name="io.flutter.embedding.android.SplashScreenDrawable"
+86-->/home/yadnyi/Desktop/Women-Safety-App/android/app/src/main/AndroidManifest.xml:35:15-79
+87                android:resource="@drawable/launch_background" />
+87-->/home/yadnyi/Desktop/Women-Safety-App/android/app/src/main/AndroidManifest.xml:36:15-61
+88
+89            <intent-filter>
+89-->/home/yadnyi/Desktop/Women-Safety-App/android/app/src/main/AndroidManifest.xml:39:13-42:29
+90                <action android:name="android.intent.action.MAIN" />
+90-->/home/yadnyi/Desktop/Women-Safety-App/android/app/src/main/AndroidManifest.xml:40:17-68
+90-->/home/yadnyi/Desktop/Women-Safety-App/android/app/src/main/AndroidManifest.xml:40:25-66
+91
+92                <category android:name="android.intent.category.LAUNCHER" />
+92-->/home/yadnyi/Desktop/Women-Safety-App/android/app/src/main/AndroidManifest.xml:41:17-76
+92-->/home/yadnyi/Desktop/Women-Safety-App/android/app/src/main/AndroidManifest.xml:41:27-74
+93            </intent-filter>
+94        </activity>
+95        <!--
+96             Don't delete the meta-data below.
+97             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+98        -->
+99        <meta-data
+99-->/home/yadnyi/Desktop/Women-Safety-App/android/app/src/main/AndroidManifest.xml:46:9-48:33
+100            android:name="flutterEmbedding"
+100-->/home/yadnyi/Desktop/Women-Safety-App/android/app/src/main/AndroidManifest.xml:47:13-44
+101            android:value="2" />
+101-->/home/yadnyi/Desktop/Women-Safety-App/android/app/src/main/AndroidManifest.xml:48:13-30
+102
+103        <service
+103-->[:firebase_database] /home/yadnyi/Desktop/Women-Safety-App/build/firebase_database/intermediates/merged_manifest/debug/AndroidManifest.xml:8:9-12:19
+104            android:name="com.google.firebase.components.ComponentDiscoveryService"
+104-->[:firebase_database] /home/yadnyi/Desktop/Women-Safety-App/build/firebase_database/intermediates/merged_manifest/debug/AndroidManifest.xml:8:18-89
+105            android:directBootAware="true"
+105-->[com.google.firebase:firebase-common:20.0.0] /home/yadnyi/.gradle/caches/transforms-2/files-2.1/d37a3de80221276b312f2332c3a880bd/jetified-firebase-common-20.0.0/AndroidManifest.xml:35:13-43
+106            android:exported="false" >
+106-->[com.google.firebase:firebase-auth:21.0.1] /home/yadnyi/.gradle/caches/transforms-2/files-2.1/7cbe3be1f73401522a0e54df01337ead/jetified-firebase-auth-21.0.1/AndroidManifest.xml:76:13-37
+107            <meta-data
+107-->[:firebase_database] /home/yadnyi/Desktop/Women-Safety-App/build/firebase_database/intermediates/merged_manifest/debug/AndroidManifest.xml:9:13-11:85
+108                android:name="com.google.firebase.components:io.flutter.plugins.firebase.database.FlutterFirebaseAppRegistrar"
+108-->[:firebase_database] /home/yadnyi/Desktop/Women-Safety-App/build/firebase_database/intermediates/merged_manifest/debug/AndroidManifest.xml:10:17-127
+109                android:value="com.google.firebase.components.ComponentRegistrar" />
+109-->[:firebase_database] /home/yadnyi/Desktop/Women-Safety-App/build/firebase_database/intermediates/merged_manifest/debug/AndroidManifest.xml:11:17-82
+110            <meta-data
+110-->[:cloud_firestore] /home/yadnyi/Desktop/Women-Safety-App/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:9:13-11:85
+111                android:name="com.google.firebase.components:io.flutter.plugins.firebase.firestore.FlutterFirebaseFirestoreRegistrar"
+111-->[:cloud_firestore] /home/yadnyi/Desktop/Women-Safety-App/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:10:17-134
+112                android:value="com.google.firebase.components.ComponentRegistrar" />
+112-->[:cloud_firestore] /home/yadnyi/Desktop/Women-Safety-App/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:11:17-82
+113            <meta-data
+113-->[:firebase_auth] /home/yadnyi/Desktop/Women-Safety-App/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:9:13-11:85
+114                android:name="com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar"
+114-->[:firebase_auth] /home/yadnyi/Desktop/Women-Safety-App/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:10:17-124
+115                android:value="com.google.firebase.components.ComponentRegistrar" />
+115-->[:firebase_auth] /home/yadnyi/Desktop/Women-Safety-App/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:11:17-82
+116            <meta-data
+116-->[:firebase_core] /home/yadnyi/Desktop/Women-Safety-App/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:9:13-11:85
+117                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+117-->[:firebase_core] /home/yadnyi/Desktop/Women-Safety-App/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:10:17-124
+118                android:value="com.google.firebase.components.ComponentRegistrar" />
+118-->[:firebase_core] /home/yadnyi/Desktop/Women-Safety-App/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:11:17-82
+119            <meta-data
+119-->[com.google.firebase:firebase-auth:21.0.1] /home/yadnyi/.gradle/caches/transforms-2/files-2.1/7cbe3be1f73401522a0e54df01337ead/jetified-firebase-auth-21.0.1/AndroidManifest.xml:77:13-79:85
+120                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+120-->[com.google.firebase:firebase-auth:21.0.1] /home/yadnyi/.gradle/caches/transforms-2/files-2.1/7cbe3be1f73401522a0e54df01337ead/jetified-firebase-auth-21.0.1/AndroidManifest.xml:78:17-109
+121                android:value="com.google.firebase.components.ComponentRegistrar" />
+121-->[com.google.firebase:firebase-auth:21.0.1] /home/yadnyi/.gradle/caches/transforms-2/files-2.1/7cbe3be1f73401522a0e54df01337ead/jetified-firebase-auth-21.0.1/AndroidManifest.xml:79:17-82
+122            <meta-data
+122-->[com.google.firebase:firebase-firestore:23.0.1] /home/yadnyi/.gradle/caches/transforms-2/files-2.1/659e8285ec0fc971014ce8e152c99135/jetified-firebase-firestore-23.0.1/AndroidManifest.xml:20:13-22:85
+123                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+123-->[com.google.firebase:firebase-firestore:23.0.1] /home/yadnyi/.gradle/caches/transforms-2/files-2.1/659e8285ec0fc971014ce8e152c99135/jetified-firebase-firestore-23.0.1/AndroidManifest.xml:21:17-111
+124                android:value="com.google.firebase.components.ComponentRegistrar" />
+124-->[com.google.firebase:firebase-firestore:23.0.1] /home/yadnyi/.gradle/caches/transforms-2/files-2.1/659e8285ec0fc971014ce8e152c99135/jetified-firebase-firestore-23.0.1/AndroidManifest.xml:22:17-82
+125            <meta-data
+125-->[com.google.firebase:firebase-database:20.0.0] /home/yadnyi/.gradle/caches/transforms-2/files-2.1/4794bc330820faad5ca39bffadb903d0/jetified-firebase-database-20.0.0/AndroidManifest.xml:32:13-34:85
+126                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+126-->[com.google.firebase:firebase-database:20.0.0] /home/yadnyi/.gradle/caches/transforms-2/files-2.1/4794bc330820faad5ca39bffadb903d0/jetified-firebase-database-20.0.0/AndroidManifest.xml:33:17-109
+127                android:value="com.google.firebase.components.ComponentRegistrar" />
+127-->[com.google.firebase:firebase-database:20.0.0] /home/yadnyi/.gradle/caches/transforms-2/files-2.1/4794bc330820faad5ca39bffadb903d0/jetified-firebase-database-20.0.0/AndroidManifest.xml:34:17-82
+128        </service>
+129
+130        <provider
+130-->[:image_picker] /home/yadnyi/Desktop/Women-Safety-App/build/image_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:8:9-16:20
+131            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+131-->[:image_picker] /home/yadnyi/Desktop/Women-Safety-App/build/image_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:9:13-82
+132            android:authorities="com.example.aaryaa.flutter.image_provider"
+132-->[:image_picker] /home/yadnyi/Desktop/Women-Safety-App/build/image_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:10:13-74
+133            android:exported="false"
+133-->[:image_picker] /home/yadnyi/Desktop/Women-Safety-App/build/image_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-37
+134            android:grantUriPermissions="true" >
+134-->[:image_picker] /home/yadnyi/Desktop/Women-Safety-App/build/image_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-47
+135            <meta-data
+135-->[:image_picker] /home/yadnyi/Desktop/Women-Safety-App/build/image_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-15:75
+136                android:name="android.support.FILE_PROVIDER_PATHS"
+136-->[:image_picker] /home/yadnyi/Desktop/Women-Safety-App/build/image_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:14:17-67
+137                android:resource="@xml/flutter_image_picker_file_paths" />
+137-->[:image_picker] /home/yadnyi/Desktop/Women-Safety-App/build/image_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:15:17-72
+138        </provider>
+139        <provider
+139-->[:esys_flutter_share] /home/yadnyi/Desktop/Women-Safety-App/build/esys_flutter_share/intermediates/merged_manifest/debug/AndroidManifest.xml:8:9-16:20
+140            android:name="de.esys.esysfluttershare.EsysFlutterShareFileProvider"
+140-->[:esys_flutter_share] /home/yadnyi/Desktop/Women-Safety-App/build/esys_flutter_share/intermediates/merged_manifest/debug/AndroidManifest.xml:9:13-81
+141            android:authorities="com.example.aaryaa.fileprovider.github.com/orgs/esysberlin/esys-flutter-share"
+141-->[:esys_flutter_share] /home/yadnyi/Desktop/Women-Safety-App/build/esys_flutter_share/intermediates/merged_manifest/debug/AndroidManifest.xml:10:13-110
+142            android:exported="false"
+142-->[:esys_flutter_share] /home/yadnyi/Desktop/Women-Safety-App/build/esys_flutter_share/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-37
+143            android:grantUriPermissions="true" >
+143-->[:esys_flutter_share] /home/yadnyi/Desktop/Women-Safety-App/build/esys_flutter_share/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-47
+144            <meta-data
+144-->[:image_picker] /home/yadnyi/Desktop/Women-Safety-App/build/image_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-15:75
+145                android:name="android.support.FILE_PROVIDER_PATHS"
+145-->[:image_picker] /home/yadnyi/Desktop/Women-Safety-App/build/image_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:14:17-67
+146                android:resource="@xml/esys_flutter_share_filepaths" />
+146-->[:image_picker] /home/yadnyi/Desktop/Women-Safety-App/build/image_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:15:17-72
+147        </provider>
+148
+149        <activity
+149-->[:flutter_inappwebview] /home/yadnyi/Desktop/Women-Safety-App/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:14:9-17:47
+150            android:name="com.pichillilorenzo.flutter_inappwebview.in_app_browser.InAppBrowserActivity"
+150-->[:flutter_inappwebview] /home/yadnyi/Desktop/Women-Safety-App/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-104
+151            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|layoutDirection|fontScale|screenLayout|density"
+151-->[:flutter_inappwebview] /home/yadnyi/Desktop/Women-Safety-App/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:16:13-137
+152            android:theme="@style/AppTheme" />
+152-->[:flutter_inappwebview] /home/yadnyi/Desktop/Women-Safety-App/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-44
+153        <activity
+153-->[:flutter_inappwebview] /home/yadnyi/Desktop/Women-Safety-App/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:18:9-20:55
+154            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ChromeCustomTabsActivity"
+154-->[:flutter_inappwebview] /home/yadnyi/Desktop/Women-Safety-App/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:19:13-112
+155            android:theme="@style/ThemeTransparent" />
+155-->[:flutter_inappwebview] /home/yadnyi/Desktop/Women-Safety-App/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:20:13-52
+156
+157        <receiver android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ActionBroadcastReceiver" />
+157-->[:flutter_inappwebview] /home/yadnyi/Desktop/Women-Safety-App/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:22:9-120
+157-->[:flutter_inappwebview] /home/yadnyi/Desktop/Women-Safety-App/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:22:19-117
+158
+159        <meta-data
+159-->[:flutter_inappwebview] /home/yadnyi/Desktop/Women-Safety-App/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:24:9-26:36
+160            android:name="io.flutter.embedded_views_preview"
+160-->[:flutter_inappwebview] /home/yadnyi/Desktop/Women-Safety-App/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:25:13-61
+161            android:value="true" />
+161-->[:flutter_inappwebview] /home/yadnyi/Desktop/Women-Safety-App/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:26:13-33
+162
+163        <activity
+163-->[:url_launcher] /home/yadnyi/Desktop/Women-Safety-App/build/url_launcher/intermediates/merged_manifest/debug/AndroidManifest.xml:8:9-11:74
+164            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+164-->[:url_launcher] /home/yadnyi/Desktop/Women-Safety-App/build/url_launcher/intermediates/merged_manifest/debug/AndroidManifest.xml:9:13-74
+165            android:exported="false"
+165-->[:url_launcher] /home/yadnyi/Desktop/Women-Safety-App/build/url_launcher/intermediates/merged_manifest/debug/AndroidManifest.xml:10:13-37
+166            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+166-->[:url_launcher] /home/yadnyi/Desktop/Women-Safety-App/build/url_launcher/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-71
+167
+168        <service
+168-->[:location] /home/yadnyi/Desktop/Women-Safety-App/build/location/intermediates/merged_manifest/debug/AndroidManifest.xml:11:9-15:56
+169            android:name="com.lyokone.location.FlutterLocationService"
+169-->[:location] /home/yadnyi/Desktop/Women-Safety-App/build/location/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-71
+170            android:enabled="true"
+170-->[:location] /home/yadnyi/Desktop/Women-Safety-App/build/location/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-35
+171            android:exported="false"
+171-->[:location] /home/yadnyi/Desktop/Women-Safety-App/build/location/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-37
+172            android:foregroundServiceType="location" />
+172-->[:location] /home/yadnyi/Desktop/Women-Safety-App/build/location/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-53
+173
+174        <activity
+174-->[com.google.firebase:firebase-auth:21.0.1] /home/yadnyi/.gradle/caches/transforms-2/files-2.1/7cbe3be1f73401522a0e54df01337ead/jetified-firebase-auth-21.0.1/AndroidManifest.xml:27:9-44:20
+175            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+175-->[com.google.firebase:firebase-auth:21.0.1] /home/yadnyi/.gradle/caches/transforms-2/files-2.1/7cbe3be1f73401522a0e54df01337ead/jetified-firebase-auth-21.0.1/AndroidManifest.xml:28:13-80
+176            android:excludeFromRecents="true"
+176-->[com.google.firebase:firebase-auth:21.0.1] /home/yadnyi/.gradle/caches/transforms-2/files-2.1/7cbe3be1f73401522a0e54df01337ead/jetified-firebase-auth-21.0.1/AndroidManifest.xml:29:13-46
+177            android:exported="true"
+177-->[com.google.firebase:firebase-auth:21.0.1] /home/yadnyi/.gradle/caches/transforms-2/files-2.1/7cbe3be1f73401522a0e54df01337ead/jetified-firebase-auth-21.0.1/AndroidManifest.xml:30:13-36
+178            android:launchMode="singleTask"
+178-->[com.google.firebase:firebase-auth:21.0.1] /home/yadnyi/.gradle/caches/transforms-2/files-2.1/7cbe3be1f73401522a0e54df01337ead/jetified-firebase-auth-21.0.1/AndroidManifest.xml:31:13-44
+179            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+179-->[com.google.firebase:firebase-auth:21.0.1] /home/yadnyi/.gradle/caches/transforms-2/files-2.1/7cbe3be1f73401522a0e54df01337ead/jetified-firebase-auth-21.0.1/AndroidManifest.xml:32:13-72
+180            <intent-filter>
+180-->[com.google.firebase:firebase-auth:21.0.1] /home/yadnyi/.gradle/caches/transforms-2/files-2.1/7cbe3be1f73401522a0e54df01337ead/jetified-firebase-auth-21.0.1/AndroidManifest.xml:33:13-43:29
+181                <action android:name="android.intent.action.VIEW" />
+181-->[:contacts_service] /home/yadnyi/Desktop/Women-Safety-App/build/contacts_service/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-65
+181-->[:contacts_service] /home/yadnyi/Desktop/Women-Safety-App/build/contacts_service/intermediates/merged_manifest/debug/AndroidManifest.xml:15:21-62
+182
+183                <category android:name="android.intent.category.DEFAULT" />
+183-->[com.google.firebase:firebase-auth:21.0.1] /home/yadnyi/.gradle/caches/transforms-2/files-2.1/7cbe3be1f73401522a0e54df01337ead/jetified-firebase-auth-21.0.1/AndroidManifest.xml:36:17-76
+183-->[com.google.firebase:firebase-auth:21.0.1] /home/yadnyi/.gradle/caches/transforms-2/files-2.1/7cbe3be1f73401522a0e54df01337ead/jetified-firebase-auth-21.0.1/AndroidManifest.xml:36:27-73
+184                <category android:name="android.intent.category.BROWSABLE" />
+184-->[com.google.firebase:firebase-auth:21.0.1] /home/yadnyi/.gradle/caches/transforms-2/files-2.1/7cbe3be1f73401522a0e54df01337ead/jetified-firebase-auth-21.0.1/AndroidManifest.xml:37:17-78
+184-->[com.google.firebase:firebase-auth:21.0.1] /home/yadnyi/.gradle/caches/transforms-2/files-2.1/7cbe3be1f73401522a0e54df01337ead/jetified-firebase-auth-21.0.1/AndroidManifest.xml:37:27-75
+185
+186                <data
+186-->[:contacts_service] /home/yadnyi/Desktop/Women-Safety-App/build/contacts_service/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-20:44
+187                    android:host="firebase.auth"
+187-->[:contacts_service] /home/yadnyi/Desktop/Women-Safety-App/build/contacts_service/intermediates/merged_manifest/debug/AndroidManifest.xml:18:17-52
+188                    android:path="/"
+189                    android:scheme="genericidp" />
+189-->[:contacts_service] /home/yadnyi/Desktop/Women-Safety-App/build/contacts_service/intermediates/merged_manifest/debug/AndroidManifest.xml:20:17-41
+190            </intent-filter>
+191        </activity>
+192        <activity
+192-->[com.google.firebase:firebase-auth:21.0.1] /home/yadnyi/.gradle/caches/transforms-2/files-2.1/7cbe3be1f73401522a0e54df01337ead/jetified-firebase-auth-21.0.1/AndroidManifest.xml:45:9-62:20
+193            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+193-->[com.google.firebase:firebase-auth:21.0.1] /home/yadnyi/.gradle/caches/transforms-2/files-2.1/7cbe3be1f73401522a0e54df01337ead/jetified-firebase-auth-21.0.1/AndroidManifest.xml:46:13-79
+194            android:excludeFromRecents="true"
+194-->[com.google.firebase:firebase-auth:21.0.1] /home/yadnyi/.gradle/caches/transforms-2/files-2.1/7cbe3be1f73401522a0e54df01337ead/jetified-firebase-auth-21.0.1/AndroidManifest.xml:47:13-46
+195            android:exported="true"
+195-->[com.google.firebase:firebase-auth:21.0.1] /home/yadnyi/.gradle/caches/transforms-2/files-2.1/7cbe3be1f73401522a0e54df01337ead/jetified-firebase-auth-21.0.1/AndroidManifest.xml:48:13-36
+196            android:launchMode="singleTask"
+196-->[com.google.firebase:firebase-auth:21.0.1] /home/yadnyi/.gradle/caches/transforms-2/files-2.1/7cbe3be1f73401522a0e54df01337ead/jetified-firebase-auth-21.0.1/AndroidManifest.xml:49:13-44
+197            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+197-->[com.google.firebase:firebase-auth:21.0.1] /home/yadnyi/.gradle/caches/transforms-2/files-2.1/7cbe3be1f73401522a0e54df01337ead/jetified-firebase-auth-21.0.1/AndroidManifest.xml:50:13-72
+198            <intent-filter>
+198-->[com.google.firebase:firebase-auth:21.0.1] /home/yadnyi/.gradle/caches/transforms-2/files-2.1/7cbe3be1f73401522a0e54df01337ead/jetified-firebase-auth-21.0.1/AndroidManifest.xml:51:13-61:29
+199                <action android:name="android.intent.action.VIEW" />
+199-->[:contacts_service] /home/yadnyi/Desktop/Women-Safety-App/build/contacts_service/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-65
+199-->[:contacts_service] /home/yadnyi/Desktop/Women-Safety-App/build/contacts_service/intermediates/merged_manifest/debug/AndroidManifest.xml:15:21-62
+200
+201                <category android:name="android.intent.category.DEFAULT" />
+201-->[com.google.firebase:firebase-auth:21.0.1] /home/yadnyi/.gradle/caches/transforms-2/files-2.1/7cbe3be1f73401522a0e54df01337ead/jetified-firebase-auth-21.0.1/AndroidManifest.xml:36:17-76
+201-->[com.google.firebase:firebase-auth:21.0.1] /home/yadnyi/.gradle/caches/transforms-2/files-2.1/7cbe3be1f73401522a0e54df01337ead/jetified-firebase-auth-21.0.1/AndroidManifest.xml:36:27-73
+202                <category android:name="android.intent.category.BROWSABLE" />
+202-->[com.google.firebase:firebase-auth:21.0.1] /home/yadnyi/.gradle/caches/transforms-2/files-2.1/7cbe3be1f73401522a0e54df01337ead/jetified-firebase-auth-21.0.1/AndroidManifest.xml:37:17-78
+202-->[com.google.firebase:firebase-auth:21.0.1] /home/yadnyi/.gradle/caches/transforms-2/files-2.1/7cbe3be1f73401522a0e54df01337ead/jetified-firebase-auth-21.0.1/AndroidManifest.xml:37:27-75
+203
+204                <data
+204-->[:contacts_service] /home/yadnyi/Desktop/Women-Safety-App/build/contacts_service/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-20:44
+205                    android:host="firebase.auth"
+205-->[:contacts_service] /home/yadnyi/Desktop/Women-Safety-App/build/contacts_service/intermediates/merged_manifest/debug/AndroidManifest.xml:18:17-52
+206                    android:path="/"
+207                    android:scheme="recaptcha" />
+207-->[:contacts_service] /home/yadnyi/Desktop/Women-Safety-App/build/contacts_service/intermediates/merged_manifest/debug/AndroidManifest.xml:20:17-41
+208            </intent-filter>
+209        </activity>
+210
+211        <service
+211-->[com.google.firebase:firebase-auth:21.0.1] /home/yadnyi/.gradle/caches/transforms-2/files-2.1/7cbe3be1f73401522a0e54df01337ead/jetified-firebase-auth-21.0.1/AndroidManifest.xml:64:9-73:19
+212            android:name="com.google.firebase.auth.api.fallback.service.FirebaseAuthFallbackService"
+212-->[com.google.firebase:firebase-auth:21.0.1] /home/yadnyi/.gradle/caches/transforms-2/files-2.1/7cbe3be1f73401522a0e54df01337ead/jetified-firebase-auth-21.0.1/AndroidManifest.xml:65:13-101
+213            android:enabled="true"
+213-->[com.google.firebase:firebase-auth:21.0.1] /home/yadnyi/.gradle/caches/transforms-2/files-2.1/7cbe3be1f73401522a0e54df01337ead/jetified-firebase-auth-21.0.1/AndroidManifest.xml:66:13-35
+214            android:exported="false" >
+214-->[com.google.firebase:firebase-auth:21.0.1] /home/yadnyi/.gradle/caches/transforms-2/files-2.1/7cbe3be1f73401522a0e54df01337ead/jetified-firebase-auth-21.0.1/AndroidManifest.xml:67:13-37
+215            <intent-filter>
+215-->[com.google.firebase:firebase-auth:21.0.1] /home/yadnyi/.gradle/caches/transforms-2/files-2.1/7cbe3be1f73401522a0e54df01337ead/jetified-firebase-auth-21.0.1/AndroidManifest.xml:68:13-72:29
+216                <action android:name="com.google.firebase.auth.api.gms.service.START" />
+216-->[com.google.firebase:firebase-auth:21.0.1] /home/yadnyi/.gradle/caches/transforms-2/files-2.1/7cbe3be1f73401522a0e54df01337ead/jetified-firebase-auth-21.0.1/AndroidManifest.xml:69:17-89
+216-->[com.google.firebase:firebase-auth:21.0.1] /home/yadnyi/.gradle/caches/transforms-2/files-2.1/7cbe3be1f73401522a0e54df01337ead/jetified-firebase-auth-21.0.1/AndroidManifest.xml:69:25-86
+217
+218                <category android:name="android.intent.category.DEFAULT" />
+218-->[com.google.firebase:firebase-auth:21.0.1] /home/yadnyi/.gradle/caches/transforms-2/files-2.1/7cbe3be1f73401522a0e54df01337ead/jetified-firebase-auth-21.0.1/AndroidManifest.xml:36:17-76
+218-->[com.google.firebase:firebase-auth:21.0.1] /home/yadnyi/.gradle/caches/transforms-2/files-2.1/7cbe3be1f73401522a0e54df01337ead/jetified-firebase-auth-21.0.1/AndroidManifest.xml:36:27-73
+219            </intent-filter>
+220        </service>
+221
+222        <provider
+222-->[com.google.firebase:firebase-common:20.0.0] /home/yadnyi/.gradle/caches/transforms-2/files-2.1/d37a3de80221276b312f2332c3a880bd/jetified-firebase-common-20.0.0/AndroidManifest.xml:26:9-31:39
+223            android:name="com.google.firebase.provider.FirebaseInitProvider"
+223-->[com.google.firebase:firebase-common:20.0.0] /home/yadnyi/.gradle/caches/transforms-2/files-2.1/d37a3de80221276b312f2332c3a880bd/jetified-firebase-common-20.0.0/AndroidManifest.xml:27:13-77
+224            android:authorities="com.example.aaryaa.firebaseinitprovider"
+224-->[com.google.firebase:firebase-common:20.0.0] /home/yadnyi/.gradle/caches/transforms-2/files-2.1/d37a3de80221276b312f2332c3a880bd/jetified-firebase-common-20.0.0/AndroidManifest.xml:28:13-72
+225            android:directBootAware="true"
+225-->[com.google.firebase:firebase-common:20.0.0] /home/yadnyi/.gradle/caches/transforms-2/files-2.1/d37a3de80221276b312f2332c3a880bd/jetified-firebase-common-20.0.0/AndroidManifest.xml:29:13-43
+226            android:exported="false"
+226-->[com.google.firebase:firebase-common:20.0.0] /home/yadnyi/.gradle/caches/transforms-2/files-2.1/d37a3de80221276b312f2332c3a880bd/jetified-firebase-common-20.0.0/AndroidManifest.xml:30:13-37
+227            android:initOrder="100" /> <!-- Needs to be explicitly declared on P+ -->
+227-->[com.google.firebase:firebase-common:20.0.0] /home/yadnyi/.gradle/caches/transforms-2/files-2.1/d37a3de80221276b312f2332c3a880bd/jetified-firebase-common-20.0.0/AndroidManifest.xml:31:13-36
+228        <uses-library
+228-->[com.google.android.gms:play-services-maps:17.0.0] /home/yadnyi/.gradle/caches/transforms-2/files-2.1/2bceeb3ebd3046d12f94339ac42b40f4/jetified-play-services-maps-17.0.0/AndroidManifest.xml:33:9-35:40
+229            android:name="org.apache.http.legacy"
+229-->[com.google.android.gms:play-services-maps:17.0.0] /home/yadnyi/.gradle/caches/transforms-2/files-2.1/2bceeb3ebd3046d12f94339ac42b40f4/jetified-play-services-maps-17.0.0/AndroidManifest.xml:34:13-50
+230            android:required="false" />
+230-->[com.google.android.gms:play-services-maps:17.0.0] /home/yadnyi/.gradle/caches/transforms-2/files-2.1/2bceeb3ebd3046d12f94339ac42b40f4/jetified-play-services-maps-17.0.0/AndroidManifest.xml:35:13-37
+231
+232        <activity
+232-->[com.google.android.gms:play-services-base:17.1.0] /home/yadnyi/.gradle/caches/transforms-2/files-2.1/19fb984a44baede148880087e00ffed0/jetified-play-services-base-17.1.0/AndroidManifest.xml:23:9-26:75
+233            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+233-->[com.google.android.gms:play-services-base:17.1.0] /home/yadnyi/.gradle/caches/transforms-2/files-2.1/19fb984a44baede148880087e00ffed0/jetified-play-services-base-17.1.0/AndroidManifest.xml:24:13-79
+234            android:exported="false"
+234-->[com.google.android.gms:play-services-base:17.1.0] /home/yadnyi/.gradle/caches/transforms-2/files-2.1/19fb984a44baede148880087e00ffed0/jetified-play-services-base-17.1.0/AndroidManifest.xml:25:13-37
+235            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+235-->[com.google.android.gms:play-services-base:17.1.0] /home/yadnyi/.gradle/caches/transforms-2/files-2.1/19fb984a44baede148880087e00ffed0/jetified-play-services-base-17.1.0/AndroidManifest.xml:26:13-72
+236
+237        <meta-data
+237-->[com.google.android.gms:play-services-basement:17.1.0] /home/yadnyi/.gradle/caches/transforms-2/files-2.1/9ec792db653432278ee7f7ed12a1eb3b/jetified-play-services-basement-17.1.0/AndroidManifest.xml:23:9-25:69
+238            android:name="com.google.android.gms.version"
+238-->[com.google.android.gms:play-services-basement:17.1.0] /home/yadnyi/.gradle/caches/transforms-2/files-2.1/9ec792db653432278ee7f7ed12a1eb3b/jetified-play-services-basement-17.1.0/AndroidManifest.xml:24:13-58
+239            android:value="@integer/google_play_services_version" />
+239-->[com.google.android.gms:play-services-basement:17.1.0] /home/yadnyi/.gradle/caches/transforms-2/files-2.1/9ec792db653432278ee7f7ed12a1eb3b/jetified-play-services-basement-17.1.0/AndroidManifest.xml:25:13-66
+240    </application>
+241
+242</manifest>
